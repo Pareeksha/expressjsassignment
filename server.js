@@ -47,6 +47,6 @@ app.get('/api/data', (req, res) => {
   }
 ];
   
-  res.send(dataArray);
+  res.json(dataArray);
   
 });
